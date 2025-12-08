@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  padding: 10px;
+}
+.logo {
+  height: 50px;
+  margin-bottom: 15px;
+}
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.subtitle {
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #64748b;
+}
+label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  background-color: #f1f5f9;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+}
+.group {
+  margin-bottom: 10px;
+}
+input:focus {
+  outline: solid 1px #c8c83a;
+  background-color: #ffffea;
+}
+.password {
+  position: relative;
+}
+.password i {
+  position: absolute;
+  right: 30px;
+  top: 35%;
+  cursor: pointer;
+  color: #64748b;
+}
+.forgot {
+  margin-bottom: 20px;
+  color: #075143;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.mobile-box {
+  background-color: #fffbf3;
+  border: solid 1px #ffebc8;
+  margin: 30px 0;
+  border-radius: 13px;
+  padding: 25px;
+  text-align: center;
+}
+.mobile-box h2 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.mobile-box p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #075143;
+}
+.stores {
+  margin: 0px 10px;
+  font-size: 20px;
+}
+.btn {
+  color: white;
+  background-color: #075143;
+  padding: 16px;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+}
+.btn:hover {
+  background-color: #064439;
+  transition: 0.4s;
+}
+.button {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.button a {
+  color: #044e3d;
+  font-weight: 600;
+  text-decoration: none;
+}
+.chat {
+  position: fixed;
+  background-color: #075143;
+  padding: 18px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  bottom: 25px;
+  border-radius: 100%;
+  right: 25px;
+  display: flex;
+  border: none;
+}
