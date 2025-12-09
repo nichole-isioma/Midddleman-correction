@@ -75,11 +75,11 @@ input:focus {
   background-color: #064439;
   transition: 0.4s;
 }
-.bottom {
+.button {
   text-align: center;
   font-size: 14px;
 }
-.bottom a {
+.button a {
   text-decoration: none;
   color: #064439;
   font-weight: 500;
